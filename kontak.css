@@ -79,6 +79,12 @@ header h1 {
   }
 }
 
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -369,4 +375,5 @@ nav ul li a:focus,
 section ul li a:focus {
   outline: 2px solid #ffeaa7;
   outline-offset: 2px;
+
 }
