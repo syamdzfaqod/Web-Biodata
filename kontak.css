@@ -257,6 +257,11 @@ section ul li a:hover::after {
   width: 100%;
 }
 
+#about-me img{
+    box-shadow: 14px 12px gray;
+    border: 2px solid purple;
+    border-radius: 12px;
+
 footer {
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(20px);
@@ -371,4 +376,5 @@ section ul li a:focus {
   outline-offset: 2px;
 
 }
+
 
